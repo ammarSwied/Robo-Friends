@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+.app-title {
+
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 4em;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: normal;
+    font-family:'Courier New', Courier, monospace;
+}
