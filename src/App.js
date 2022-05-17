@@ -35,7 +35,7 @@ class App extends Component{
         return(
             <div className="tc">
                 <h1 className="app-title">RoboFriends</h1>
-                <img src= {logo} alt="App Icon" className="w-100 f7 measure"/>
+                <img src= {logo} alt="App Icon" width="500" height="150" className="w-100 f7 measure"/>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <Scroll>
                     <CardList robots={filteredRobots}/>
